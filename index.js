@@ -87,4 +87,22 @@ var finances = [
   ['Feb-2017', 671099],
 ];
 
+/*find out how may array items there are > console.log(finances.length);
+make an array w only the numbers
+let monthlyfinances = finance.filter()
+find total of all the array items for loop/reduce? 
+
+find which month had the biggest change 
+biggest increase 
+biggest decrease*/
+
 console.log(finances.length);
+
+
+var netTotal = 1;
+
+for (var i = 0; i<finances.length; i++){
+  for var j = 0; j<finances[i].length; j++;
+  netTotal += finances[i][j];
+}
+console.log(netTotal);
